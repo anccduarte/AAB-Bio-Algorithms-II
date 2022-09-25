@@ -43,10 +43,3 @@ frags = [seq[i:i+3] for i in range(len(seq) - 2)]
 
 print(rebuild_all_seqs(frags))
 
-# HELP...
-# print([["ATG"]] + [["TGC"]])
-# print(new_arr("ATC", ["ATC"]))
-# print([] + [["ATC"] + path for path in [["TCG"]]])
-# print([] + [["ATG"] + path for path in [[]]])
-# print([] + [["GAT"] + path for path in [["ATG"]]])
-
