@@ -1,10 +1,19 @@
 # AAB
 
-Algoritmos implementados no âmbito da Unidade Curricular “Algoritmos Avançados de Bioinformática”:
-1. Automaton (procura de padrões em sequências)
-2. Burrows-Wheeler (compressão de sequências biológicas e procura de padrões)
-3. Gibbs Sampling (procura de motifs num conjunto de sequências)
-4. Evolutionary (algoritmo evolucionário para a procura de motifs num conjunto de sequências de DNA)
-5. Graphs (funcionalidades associadas a grafos)
-6. Hamiltonian (reconstrução de sequências através de circuitos Hamiltonianos)
-7. De Bruijn (reconstrução de sequências de DNA)
+## Curricular Unit
+AAB - Bioinformatics Advanced Algorithms<br>
+Masters in Bioinformatics, University of Minho (2021-2022)
+
+## Description
+A Python package implementing some algorithms relevant for the analysis of biological
+sequences.
+
+## Modules
+- _Automaton.py_ - search for patterns in sequences
+- _BurrowsWheeler.py_ - sequence compression and pattern searching
+- _DeBruijn.py_ - reconstruction of DNA sequences using de Bruijn graphs
+- _Evolutionary.py_ - motif searching using an evolutionary algorithm
+- _GibbsSampling.py_ - motif searching using the Gibbs sampling algorithm
+- _Graphs.py_ - functionality related to graphs
+- _Hamiltonian.py_ - reconstruction of DNA sequences using Hamiltonian circuits
+- _RecursiveHamiltonian.py_ - recursive version of _Hamiltonian.py_
