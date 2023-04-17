@@ -5,7 +5,7 @@ AAB - Bioinformatics Advanced Algorithms<br>
 Masters in Bioinformatics, University of Minho (2021-2022)
 
 ## Description
-A Python package implementing some algorithms relevant for the analysis of biological
+A _Python_ package implementing algorithms relevant for the analysis of biological
 sequences.
 
 ## Modules
